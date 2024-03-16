@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        PATIENT REGISTRATION FORM
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>
+                <font color="orange">
+                    Apollo Hospitals
+                </font>
+            </center>
+        </h1>
+
+        <p align="center">
+            <a href="HOME.html">About Apollo</a>&nbsp;&nbsp;
+            <a href="BRANCHES.html">Apollo Branches</a> &nbsp;&nbsp;
+            <a href="SERVICES.html">Apollo Services</a>&nbsp;&nbsp;
+            <a href="CONTACT.html">Apollo Contact</a> &nbsp;&nbsp;
+            <a href="DOCTORS.html">Our Doctors</a>&nbsp;&nbsp;
+            <a href="LABS.html">Our Labs</a>&nbsp;&nbsp;
+            <a href="DOCTOR SIGN UP.html">Doctor SignUp</a>&nbsp;&nbsp;
+            <a href="DOCTOR SIGN IN.html">Doctor SignIn</a>&nbsp;&nbsp;
+            <a href="#">Patient SignUp</a>&nbsp;&nbsp;
+            <a href="PATIENT SIGN IN.html">Patient SignIn</a>&nbsp;&nbsp;
+            <a href="FEEDBACK.html">Feedback</a>
+
+        </p>
+    </header>
+    <hr>
+    <form method="post" action="server4url" name="prform" style="background-color: antiquewhite;">
+        <h1>
+            <center>Patient Registration Form</center>
+        </h1>
+        <p>
+            <center>Thank you for applying to our practices.Please complete this patient registration form with
+                <br>your information,and a doctor will contact you shortly.
+            </center>
+        </p>
+        <hr><br>
+        <table cellpadding="10px" align="center">
+            <tr>
+                <td><label>Patient's Name</label></td>
+                <td><input type="text" id="1" name="pfname" placeholder="First"></td>
+                <td><input type="text" id="2" name="plname" placeholder="Last"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" value="male" id="3" name="gender">Male</td>
+                <td><input type="radio" value="female" id="4" name="gender">Female</td>
+            </tr>
+            <tr>
+                <td><label>Phone</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Marital Status</label></td>
+                <td><input type="radio" value="Single" id="5" name="status">Single</td>
+                <td><input type="radio" value="Married" id="6" name="status">Married</td>
+                <td><input type="radio" value="divorced" id="7" name="status">Divorced</td>
+                <td><input type="radio" value="widow" id="8"name="status">Widow</td>
+            </tr>
+            <tr>
+                <td><label>Patient's Address</label></td>
+                <td><input type="text" id="5" name="paddress" placeholder="Street Address"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="6" name="pcity" placeholder="City"></td>
+                <td><input type="text" id="7" name="pState" placeholder="State"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" id="8" name="ppostalcode" placeholder="Postal/Zip Code"></td>
+                <td><input type="text" id="9" name="pcountry" placeholder="Country"></td>
+            </tr>
+            <tr>
+                <td><label>Insurance Name</label></td>
+                <td><input type="text" id="10" name="pinsurancename"></td>
+            </tr>
+            <tr>
+                <td><label>Past medical history</td>
+                <td><input type="checkbox" value="Anemia" id="11" name="ppmh">Anemia</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="asthma" id="12" name="ppmh">Asthma</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="bronchitis" id="13" name="ppmh">Bronchitis</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="chickenpox" id="14" name="ppmh">Chickenpox</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="diabetes" id="15" name="ppmh">Diabetes</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="pneumonia" id="16" name="ppmh">Pneumonia</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="thyroiddisease" id="17" name="ppmh">Thyroid Disease</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="ulcer" id="18" name="ppmh">Ulcer</td>
+            </tr>
+            <tr><td></td>
+                <td><input type="checkbox" value="other" id="19" name="ppmh">Other</td>
+            </tr>
+        </table>
+        <br><center><input type="submit" value="REGISTER"></center>
+    </form>
+    <br><br>
+    <hr>
+   
+    <footer>
+        <h4>
+            <center>
+                <font color="blue">
+                    copyright@360Digrii
+                </font>
+            </center>
+        </h4>
+    </footer>
+</body>
+
+</html>
